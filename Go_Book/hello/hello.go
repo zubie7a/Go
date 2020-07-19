@@ -67,9 +67,12 @@ func str10x(x string) string {
 var c, python, java bool
 
 var (
-	ToBe   bool       = false
-	MaxInt uint64     = 1<<64 - 1
-	cz     complex128 = cmplx.Sqrt(-5 + 12i)
+	// ToBe : a boolean variable.
+	ToBe = false
+	// MaxInt : the max value that can be held in uint64.
+	MaxInt uint64 = 1<<64 - 1
+	// A complex value.
+	cz = cmplx.Sqrt(-5 + 12i)
 )
 
 func add(x, y int) int {

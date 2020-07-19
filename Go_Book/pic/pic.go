@@ -2,6 +2,7 @@ package main
 
 import "golang.org/x/tour/pic"
 
+// Pic : creates a picture pixel by pixel.
 func Pic(dx, dy int) [][]uint8 {
 	rows := make([][]uint8, dy)
 	for i := range rows {

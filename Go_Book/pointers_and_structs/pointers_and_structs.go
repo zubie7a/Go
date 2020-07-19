@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Vertex : a struct to hold coordinates.
 type Vertex struct {
 	X, Y int
 	W, Z int

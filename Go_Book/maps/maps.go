@@ -7,10 +7,12 @@ import (
 	"golang.org/x/tour/wc"
 )
 
+// Vertex : a struct for coordinates in a map.
 type Vertex struct {
 	Lat, Long float64
 }
 
+// WordCount : count occurrences of words in a string.
 func WordCount(s string) map[string]int {
 	wordsMap := map[string]int{}
 	words := strings.Split(s, " ")
