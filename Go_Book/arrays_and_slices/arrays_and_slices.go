@@ -37,9 +37,9 @@ func main() {
 	// Slices can be appended, and unpacked (...) separates all values of slice.
 	newFib = append(newFib, baseSlice...)
 	for i := 1; i < 21; i++ {
-		f_ni := newFib[i] + newFib[i-1]
+		fNi := newFib[i] + newFib[i-1]
 		// Now sure how efficient is to keep appending to end of list...
-		newFib = append(newFib, f_ni)
+		newFib = append(newFib, fNi)
 	}
 
 	fmt.Printf("Fibonacci_21:\t%v\n", newFib)
@@ -97,7 +97,7 @@ func main() {
 		{j: 777},
 		{i: -1, b: true},
 	}
-	fmt.Println("Anonymous slice:", anonSlice, "\n")
+	fmt.Println("Anonymous slice:", anonSlice)
 
 	// In slices, must not confuse length and capacity.
 	// 	* len(s): the number of elements this slice contains.
