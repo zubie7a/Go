@@ -83,5 +83,5 @@ func main() {
 	// Integers also have these binary operators:
 	// 	* Arithmetic: + - * / % << >>
 	// 	* Comparisson: == != > < >= <=
-	//  * Boolean: && ||
+	// 	* Boolean: && ||
 }

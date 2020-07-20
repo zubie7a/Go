@@ -35,7 +35,7 @@ func main() {
 	fmt.Println(z / w) // Will print (0.72+0.04i)
 	// Complex number multiplication:
 	// 	(x + yi)(u + vi) = (x*u - y*v) + (x*v + y*u)i
-	//  (2 + 3i)(3 + 4i) = (2*3 - 3*4) + (2*4 + 3*3)i = (-6+17i)
+	// 	(2 + 3i)(3 + 4i) = (2*3 - 3*4) + (2*4 + 3*3)i = (-6+17i)
 
 	// STRINGS:
 	// They are ASCII and Unicode. They are sequences of bytes, there's no
