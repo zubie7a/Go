@@ -18,7 +18,7 @@ func main() {
 	fmt.Println(x)
 
 	// PRINTING.
-	name := "Joe"
+	name := "Santi"
 	fmt.Printf("Hi %s!\n", name)
 	fmt.Println("How are you " + name + "?")
 
