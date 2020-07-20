@@ -31,6 +31,9 @@ func h() {
 }
 
 func main() {
+
+	// VARIABLE SCOPE.
+
 	f()  // Will print 7.
 	g(1) // Will print 2.
 	h()  // Will print 1.

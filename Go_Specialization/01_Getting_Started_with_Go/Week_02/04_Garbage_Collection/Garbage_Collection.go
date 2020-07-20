@@ -29,6 +29,9 @@ func f() *int {
 }
 
 func main() {
+
+	// GARBAGE COLLECTION.
+
 	var y *int
 	// Got the pointer from `x` inside f() and stored it in `y`. Because now
 	// that pointer is being used here, `x` won't be deallocated. Go tracks

@@ -9,6 +9,7 @@ import (
 func main() {
 
 	// COMMENTS.
+
 	// This is a comment.
 	var x int // This is another comment.
 	/*
@@ -18,6 +19,7 @@ func main() {
 	fmt.Println(x)
 
 	// PRINTING.
+
 	name := "Santi"
 	fmt.Printf("Hi %s!\n", name)
 	fmt.Println("How are you " + name + "?")
@@ -41,6 +43,7 @@ func main() {
 	fmt.Printf("%.14f\n", numFloat)
 
 	// INTEGERS.
+
 	var (
 		// int8: from -128 to 127
 		min8, max8 int8

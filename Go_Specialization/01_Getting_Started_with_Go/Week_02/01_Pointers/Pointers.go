@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
+
+	// POINTERS.
+
 	var x = 721 // Can omit type since it will be inferred from right-hand side.
 	var y int
 	var ip *int // `ip` is a pointer to int type.
