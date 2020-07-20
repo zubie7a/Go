@@ -80,4 +80,8 @@ func main() {
 	fmt.Printf("uint32: from %d to %d\n", umin32, umax32)
 	fmt.Printf("uint64: from %d to %d\n", umin64, umax64)
 
+	// Integers also have these binary operators:
+	// 	* Arithmetic: + - * / % << >>
+	// 	* Comparisson: == != > < >= <=
+	//  * Boolean: && ||
 }
