@@ -41,9 +41,8 @@ func main() {
 	fmt.Printf("%.14f\n", numFloat)
 
 	// INTEGERS.
-
 	var (
-		// 	int8: from -128 to 127
+		// int8: from -128 to 127
 		min8, max8 int8
 		// int16: from -32768 to 32767
 		min16, max16 int16
@@ -61,10 +60,12 @@ func main() {
 		umin64, umax64 uint64
 	)
 
+	// Signed integers.
 	min8, max8 = math.MinInt8, math.MaxInt8
 	min16, max16 = math.MinInt16, math.MaxInt16
 	min32, max32 = math.MinInt32, math.MaxInt32
 	min64, max64 = math.MinInt64, math.MaxInt64
+	// Unsigned integers.
 	umin8, umax8 = 0, math.MaxUint8
 	umin16, umax16 = 0, math.MaxUint16
 	umin32, umax32 = 0, math.MaxUint32
